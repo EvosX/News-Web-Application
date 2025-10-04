@@ -1,0 +1,6 @@
+npm create vite@latest
+npm install tailwindcss @tailwindcss/vite
+npm i react-router-dom
+npm i react-icon
+API taken from News API 
+npm i lucide-react 
