@@ -31,11 +31,10 @@ const News = ({ country, category, articles, setArticles }) => {
     <>
       {Loading ? (
         <div className="bg-gray-200 dark:bg-gray-800 h-screen flex flex-col mx-auto gap-3 items-center justify-center">
-          
-            <Loader className=" h-12 w-12 animate-spin dark:text-gray-200" />
-            <h1 className="text-gray-800 text-xl font-semibold dark:text-gray-200">
-              Loading...
-            </h1>
+          <Loader className=" h-12 w-12 animate-spin dark:text-gray-200" />
+          <h1 className="text-gray-800 text-xl font-semibold dark:text-gray-200">
+            Loading...
+          </h1>
           
         </div>
       ) : (
