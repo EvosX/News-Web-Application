@@ -1,8 +1,8 @@
 import { Menu, Search } from 'lucide-react';
-import React, { useContext, useState } from 'react'
+import React, { useContext, useState } from 'react';
 import { FaMoon, FaSun } from 'react-icons/fa';
 import { ThemeContext } from '../context/ThemeContext';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { X } from 'lucide-react';
 
