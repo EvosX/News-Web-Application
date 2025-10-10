@@ -38,8 +38,8 @@ const Navbar = ({ setArticles }) => {
         <div className='max-w-7xl mx-auto px-4 py-3 flex items-center justify-between'>
             {/* Logo or Brand Name */}
             <Link to={"/"}>
-            <div className='md:text-2xl text-lg font-bold text-blue-600 dark:text-gray-200 cursor-pointer'>
-                NewAppz
+            <div className='md:text-2xl text-lg font-bold bg-gradient-to-r from-blue-500 to-purple-700 dark:from-orange-400 dark:to-green-500 bg-clip-text text-transparent cursor-pointer'>
+                TimeLine
             </div>
             </Link>
 
@@ -53,7 +53,7 @@ const Navbar = ({ setArticles }) => {
                 })
             }
             </div>
-            <div className='flex items-center justify-center gap-4'>
+            <div className='flex items-center justify-center gap-3'>
                 <div className='relative bg-gray-200 px-2 py-1 rounded-full'>
                     <Search className='absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4' />
                     <input onChange={handleSearch} type="text" placeholder='Search news' className='md:pl-10 pl-7 w-30 md:w-50 outline-none focus:outline-none' />

@@ -7,7 +7,7 @@ const NewsCard = ({ article }) => {
   return (
     <div
       className="max-w-md md:bg-white dark:bg-gray-900 hover:scale-105 
-    transition-all rounded-xl shadow-md overflow-hidden hover:shadow-lg duration-300"
+    transition-all rounded-xl shadow-gray-500 overflow-hidden hover:shadow-sm duration-300"
     >
       <Link to={"/article"} state={{ article }}>
       <div>
@@ -23,7 +23,7 @@ const NewsCard = ({ article }) => {
       <div className="p-4">
         <Link to={"/article"} state={{ article }}>
           <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-200 hover:text-blue-600 transition">
-            {title}{}
+            {title}
           </h2>
         </Link>
         <p className="text-sm text-gray-600 dark:text-gray-300 mt-2">
