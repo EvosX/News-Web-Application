@@ -4,6 +4,7 @@ import News from "./pages/News";
 import Article from "./pages/Article";
 import { ThemeContext } from "./context/ThemeContext";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
 
 const App = () => {
   const [articles, setArticles] = useState([]);
@@ -95,6 +96,7 @@ const App = () => {
         ></Route>
         <Route path="/article" element={<Article />}></Route>
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
